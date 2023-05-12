@@ -1809,7 +1809,7 @@ if (!function_exists('Aws\constantly'))  {
 }
 
 if (!function_exists('GuzzleHttp\describe_type')) {
-    if ($CFG->branch >= 402) {
+    if ($CFG->branch >= 311) {
         require_once $CFG->dirroot. '/lib/guzzlehttp/guzzle/src/functions_include.php';
     } else {
         require_once __DIR__ . '/GuzzleHttp/functions_include.php';
